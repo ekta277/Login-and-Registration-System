@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 #include<fstream>
 #include<string>
 using namespace std;
@@ -45,6 +45,7 @@ void loginUser() {
   read.close();
 
   cout << "Invalid Username or Password!\n";
+}
 
 int main() {
   int choice;
