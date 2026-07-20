@@ -20,7 +20,7 @@ void registerUser() {
   }
   read.close();
 
-  ofstream write(users.txt", ios::app);
+  ofstream write("users.txt", ios::app);
   write << username << " " << password << endl;
   write.close();
 
